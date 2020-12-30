@@ -37,10 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 1
+  turns = 1
   puts "Turn started"
-  until turn == 9
+  until turns == 9
     turn(board)
-    turns = turns + 1
+    turns += 1
   end
 end
